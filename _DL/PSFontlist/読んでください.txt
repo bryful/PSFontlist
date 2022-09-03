@@ -10,6 +10,10 @@ PSFontlist.jsx/PSFontlist.exeをAEのScripts/ScriptUI Panelsフォルダにコピーしてく
 ☆注意
 PSFontlist.exeは実行するとPhotoshopを起動させます。注意してください。
 
+＊Photoshopを起動させます！
+＊その時確認ダイアログが出ますので「はい(y)」を選んでください。
+＊ノートン等のセキュリティソフトが実行を停止させる時があるので注意してください。
+
 
 ☆PSFontlist.exeの使い方
 PSFontlist [書き出すファイルのパス]<enter>
