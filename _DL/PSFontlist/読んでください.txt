@@ -1,0 +1,34 @@
+PSFontlist.jsx/PSFontlist.exe
+
+PCにインストールされているフォントの情報をPhotoshopで獲得するDOSコマンドPSFontlist.exeと
+それを利用するAfterEffectsのスクリプトです。
+
+☆インストール
+PSFontlist.jsx/PSFontlist.exeをAEのScripts/ScriptUI Panelsフォルダにコピーしてください。
+
+
+☆注意
+PSFontlist.exeは実行するとPhotoshopを起動させます。注意してください。
+
+
+☆PSFontlist.exeの使い方
+PSFontlist [書き出すファイルのパス]<enter>
+書き出すファイルは一般的なJSONファイルです。
+
+{"fonts\":[
+   {
+        "name\":\"MS Gothic\",
+        "family\":\"ＭＳ ゴシック\",
+        "postScriptName\":\"MS-Gothic\"
+    }
+   ]
+}
+json2.jsでparseしてデータをオブジェクトとして扱えます。
+
+☆PSFontlist.jsxの使い方
+実行するとPhotoshopを起動してフォント情報を獲得します。
+獲得ボタンで更新します。
+一応PSFontlist.exeを使うためのサンプルです。
+
+bryful
+
