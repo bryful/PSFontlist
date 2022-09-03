@@ -6,16 +6,16 @@ PSFontlist [書き出すファイルのパス]<enter><br>
 <br>
 書き出すファイルは一般的なJSONファイルです。<br>
 ```
-{"fonts\":[
+{"fonts":[
    {
-        "name\":\"MS Gothic\",
-        "family\":\"ＭＳ ゴシック\",
-        "postScriptName\":\"MS-Gothic\"
+        "name":"MS Gothic",
+        "family":"ＭＳ ゴシック",
+        "postScriptName":"MS-Gothic"
     }
    ]
 }
 ```
-json2.jsでparseしてデータをオブジェクトとして扱えます。
+json2.jsでparseしてデータをオブジェクトとして扱えます。<br>
 
 # CAUTION 注意
 
@@ -29,9 +29,9 @@ This software is released under the MIT License, see LICENSE.
 
 # Authors
 
-bry-ful(Hiroshi Furuhashi)
-twitter:[bryful](https://twitter.com/bryful)
-bryful@gmail.com
+bry-ful(Hiroshi Furuhashi)<br>
+twitter:[bryful](https://twitter.com/bryful)<br>
+bryful@gmail.com<br>
 
 # References
 
